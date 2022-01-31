@@ -56,12 +56,18 @@ footer {
 }
 
 .Inquiry {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-  width: 100%;
-  height: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    top: 50vh;
+    position: fixed;
+    transform: rotate(-90deg);
+    background-color: #D9D7F1;
+    color: #1A1A40;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: -18px;
+    line-height: 40px;
+    animation: fromtop 0.6s ease-in-out;
 }
 
 .Contact-us {
